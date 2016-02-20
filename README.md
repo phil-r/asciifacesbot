@@ -9,6 +9,7 @@ Bot replies to every incoming webhook and doesn't send requests to the API direc
 
 ## How to run your own `asciifacesbot`
 - Clone this project
+- Run `pip install -r requirements.txt -t lib/` to install dependencies
 - Download and install [App Engine SDK](https://cloud.google.com/appengine/downloads)
 - Register your app in [Google Cloud console](https://console.cloud.google.com)
 - Register your bot via [BotFather](https://telegram.me/BotFather)
