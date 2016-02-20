@@ -21,6 +21,7 @@ Bot replies to every incoming webhook and doesn't send requests to the API direc
 - [x] Add basic inline bot 
 - [ ] Do something with thumbnail
 - [ ] Setup your favorite faces through bot commands
+- [ ] [Collect feedback](https://core.telegram.org/bots/inline#collecting-feedback)
 
 
 Thanks to https://github.com/maxogden/cool-ascii-faces for the list of faces ¯\\\_(ツ)\_/¯
