@@ -35,8 +35,8 @@ def webhook():
         'type': 'article',
         'id': str(i + offset),
         'title': face,
-        'description': '{} {}'.format(query, face) if query else face,
-        'message_text': '{} {}'.format(query, face) if query else face,
+        'description': u'{} {}'.format(query, face) if query else face,
+        'message_text': u'{} {}'.format(query, face) if query else face,
     } for i, face in enumerate(faces[offset:offset + 50])]
     resp = {'method': 'answerInlineQuery',
             'inline_query_id': inline_query.get('id'),
