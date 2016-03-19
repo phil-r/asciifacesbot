@@ -46,6 +46,12 @@ def webhook():
       resp = {'method': 'sendMessage',
               'text': '\n'.join(faces),
               'chat_id': message.get('from').get('id')}
+    elif text == '/start':
+      resp = {'method': 'sendMessage',
+              'text': '''I allow you to append funny ascii faces to your messages.
+You can contribute to the code here:
+https://github.com/phil-r/asciifacesbot''',
+              'chat_id': message.get('from').get('id')}
     else:
       resp = {'method': 'sendMessage',
               'text': 'I know only /list command ¯\_(ツ)_/¯',
