@@ -4,9 +4,6 @@ import os
 import json
 import logging
 
-from google.appengine.api import urlfetch
-from google.appengine.ext import deferred
-
 from flask import Flask, request, jsonify
 
 from faces import faces
