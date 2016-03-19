@@ -26,3 +26,6 @@ Bot replies to every incoming webhook and doesn't send requests to the API direc
 
 
 Thanks to https://github.com/maxogden/cool-ascii-faces for the list of faces ¯\\\_(ツ)\_/¯
+
+## See also 
+- [Hacker news bot](https://github.com/phil-r/hackernewsbot)
