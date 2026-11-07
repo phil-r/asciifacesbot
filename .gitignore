@@ -1,7 +1,8 @@
-*.pyc
-# don't include third-party dependencies.
-!lib/README.md
 .DS_Store
-lib
-app.yaml
-setup.cfg
+node_modules/
+.wrangler/
+worker-configuration.d.ts
+.dev.vars*
+!.dev.vars.example
+.env*
+wrangler.local.jsonc

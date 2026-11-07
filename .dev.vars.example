@@ -1,0 +1,4 @@
+# Copy to .dev.vars (ignored); never commit real secrets.
+# Use a random value (1–256 characters: A-Z, a-z, 0-9, _ or -).
+# Must match the secret_token supplied to Telegram's setWebhook.
+WEBHOOK_SECRET="YOUR_RANDOM_WEBHOOK_SECRET"

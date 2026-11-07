@@ -1,0 +1,11 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "asciifacesbot-worker",
+  "account_id": "<CLOUDFLARE_ACCOUNT_ID>",
+  "routes": [{ "pattern": "bot.example.com", "custom_domain": true }],
+  "main": "src/index.ts",
+  "compatibility_date": "2026-11-07",
+  "secrets": { "required": ["WEBHOOK_SECRET"] },
+  // Do not capture authentication headers or private Telegram updates in logs/traces.
+  "observability": { "enabled": false }
+}

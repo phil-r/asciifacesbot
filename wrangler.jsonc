@@ -1,0 +1,9 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "asciifacesbot-worker",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-11-07",
+  "secrets": { "required": ["WEBHOOK_SECRET"] },
+  // Do not capture authentication headers or private Telegram updates in logs/traces.
+  "observability": { "enabled": false }
+}
